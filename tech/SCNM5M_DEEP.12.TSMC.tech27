@@ -1,4 +1,4 @@
-tech
+	tech
  scmos
 end
 
@@ -729,7 +729,7 @@ style  lambda=0.12(p)
  templayer TCSB nwsd,nwsc
  grow 36
  and-not TNWR
- 
+
  layer CSB nwsd,nwsc,nwr
  grow 132
  and-not TCSB
@@ -783,7 +783,7 @@ style  lambda=0.12(p)
  bloat-or pp * 12 pn 0
  or TPS
 
-#final pselect 
+#final pselect
  templayer FSP
  bloat-or pdiff,apres,rpd,pfet,psd,hpdif,hapres,hpfet,hpsd,pdc/a,pdm12c/a,psc/a,psm12c/a,hpdc/a,hpdm12c/a,hpsc/a,hpsm12c/a,pfet,hpfet * 24 ndiff,anres,rnd,hndif,hanres,ndc/a,ndm12c/a,hndc/a,hndm12c/a,nsd,hnsd,nsc/a,nsm12c/a,hnsc/a,hnsm12c/a,nfet,hnfet 0
  or base,bc/a
@@ -1269,7 +1269,7 @@ style  lambda=0.12(cp)
  templayer TCSB nwsd,nwsc
  grow 36
  and-not TNWR
- 
+
  layer CSB nwsd,nwsc,nwr
  grow 132
  and-not TCSB
@@ -1323,7 +1323,7 @@ style  lambda=0.12(cp)
  bloat-or pp * 12 pn 0
  or TPS
 
-#final pselect 
+#final pselect
  templayer FSP
  bloat-or pdiff,apres,rpd,pfet,psd,hpdif,hapres,hpfet,hpsd,pdc/a,pdm12c/a,psc/a,psm12c/a,hpdc/a,hpdm12c/a,hpsc/a,hpsm12c/a,pfet,hpfet * 24 ndiff,anres,rnd,hndif,hanres,ndc/a,ndm12c/a,hndc/a,hndm12c/a,nsd,hnsd,nsc/a,nsm12c/a,hnsc/a,hnsm12c/a,nfet,hnfet 0
  or base,bc/a
@@ -1712,7 +1712,7 @@ style  lambda=0.12(c)
  templayer TCSB nwsd,nwsc
  grow 36
  and-not TNWR
- 
+
  layer CSB nwsd,nwsc,nwr
  grow 132
  and-not TCSB
@@ -1756,7 +1756,7 @@ style  lambda=0.12(c)
  bloat-or pp * 12 pn 0
  or TPS
 
-#final pselect 
+#final pselect
  templayer FSP
  bloat-or pdiff,apres,rpd,pfet,psd,hpdif,hapres,hpfet,hpsd,pdc/a,pdm12c/a,psc/a,psm12c/a,hpdc/a,hpdm12c/a,hpsc/a,hpsm12c/a,pfet,hpfet * 24 ndiff,anres,rnd,hndif,hanres,ndc/a,ndm12c/a,hndc/a,hndm12c/a,nsd,hnsd,nsc/a,nsm12c/a,hnsc/a,hnsm12c/a,nfet,hnfet 0
  or base,bc/a
@@ -2145,7 +2145,7 @@ style  lambda=0.12()
  templayer TCSB nwsd,nwsc
  grow 36
  and-not TNWR
- 
+
  layer CSB nwsd,nwsc,nwr
  grow 132
  and-not TCSB
@@ -2189,7 +2189,7 @@ style  lambda=0.12()
  bloat-or pp * 12 pn 0
  or TPS
 
-#final pselect 
+#final pselect
  templayer FSP
  bloat-or pdiff,apres,rpd,pfet,psd,hpdif,hapres,hpfet,hpsd,pdc/a,pdm12c/a,psc/a,psm12c/a,hpdc/a,hpdm12c/a,hpsc/a,hpsm12c/a,pfet,hpfet * 24 ndiff,anres,rnd,hndif,hanres,ndc/a,ndm12c/a,hndc/a,hndm12c/a,nsd,hnsd,nsc/a,nsm12c/a,hnsc/a,hnsm12c/a,nfet,hnfet 0
  or base,bc/a
@@ -15760,7 +15760,7 @@ end
 
 mzrouter
  style irouter
-#		layer	hCost	vCost	jogCost	hintCost 
+#		layer	hCost	vCost	jogCost	hintCost
  layer		metal5	1	2	2	1
  layer		metal4	2	1	2	1
  layer		metal3	1	2	2	1
@@ -16479,7 +16479,7 @@ drc
  "Silicide-Block overlap of Silicide-Block polyR/activeR < 2 (Mosis #20.15)"
 
  edge4way sb,pres,anres,apres,hanres,hapres diff,ndiff,rnd,nfet,nsd,nwsd,pdiff,rpd,pfet,psd,hdiff,htran,hfet,hndif,hnfet,hnsd,hpdif,hpfet,hpsd,ndc/a,ndm12c/a,nsc/a,nwsc/a,nsm12c/a,nwsm12c/a,pdc/a,pdm12c/a,psc/a,psm12c/a,hndc/a,hndm12c/a,hnsc/a,hnsm12c/a,hpdc/a,hpdm12c/a,hpsc/a,hpsm12c/a,coll 3 diff,ndiff,rnd,nfet,nsd,nwsd,pdiff,rpd,pfet,psd,hdiff,htran,hfet,hndif,hnfet,hnsd,hpdif,hpfet,hpsd,ndc/a,ndm12c/a,nsc/a,nwsc/a,nsm12c/a,nwsm12c/a,pdc/a,pdm12c/a,psc/a,psm12c/a,hndc/a,hndm12c/a,hnsc/a,hnsm12c/a,hpdc/a,hpdm12c/a,hpsc/a,hpsm12c/a,coll 0 0 \
- "Diffusion overhang of Silicide-Block < 3 (Mosis #20.17) 
+ "Diffusion overhang of Silicide-Block < 3 (Mosis #20.17)
 
  spacing gv3 gv3 3 touching_ok \
  "GV3 via spacing < 3 (Mosis #21.2)"
@@ -16820,7 +16820,7 @@ drc
  spacing m5p m5p 4 touching_ok \
  "Metal5 PIN spacing < 4 (do_pins)"
 
-#CC cifstyle  lambda=0.12(p) 
+#CC cifstyle  lambda=0.12(p)
 #CC cifwidth CWN 144 \
 #CC "generated CIF layer CWN width will be < 12 (';cif see CWN')"
 #CC cifspacing CWN CWN 72 touching_ok \
@@ -16946,25 +16946,25 @@ extract
  sideoverlap (m1,fm1,rm1,ndc,ndm12c,pdc,pdm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 ~(m1,fm1,rm1,ndc,ndm12c,pdc,pdm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 ~space/w   1.336 ~space/a
 
 #rnw
- overlap (m1,fm1,rm1,ndc,ndm12c,pdc,pdm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 rnw,nwr/active   0.600 
- sideoverlap (m1,fm1,rm1,ndc,ndm12c,pdc,pdm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 ~(m1,fm1,rm1,ndc,ndm12c,pdc,pdm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 rnw,nwr/active   1.336 
+ overlap (m1,fm1,rm1,ndc,ndm12c,pdc,pdm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 rnw,nwr/active   0.600
+ sideoverlap (m1,fm1,rm1,ndc,ndm12c,pdc,pdm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 ~(m1,fm1,rm1,ndc,ndm12c,pdc,pdm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 rnw,nwr/active   1.336
 
-#metal1-diff blocked by 
- overlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (ndiff,anres,rnd,hndif,hanres,ndc,ndm12c,hndc,hndm12c)/active   0.749 
- sideoverlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 ~(m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (ndiff,anres,rnd,hndif,hanres,ndc,ndm12c,hndc,hndm12c)/active   1.336 
- overlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (pdiff,apres,rpd,hpdif,hapres,pdc,pdm12c,hpdc,hpdm12c)/active   0.749 
- sideoverlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 ~(m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (pdiff,apres,rpd,hpdif,hapres,pdc,pdm12c,hpdc,hpdm12c)/active   1.336 
+#metal1-diff blocked by
+ overlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (ndiff,anres,rnd,hndif,hanres,ndc,ndm12c,hndc,hndm12c)/active   0.749
+ sideoverlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 ~(m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (ndiff,anres,rnd,hndif,hanres,ndc,ndm12c,hndc,hndm12c)/active   1.336
+ overlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (pdiff,apres,rpd,hpdif,hapres,pdc,pdm12c,hpdc,hpdm12c)/active   0.749
+ sideoverlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 ~(m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (pdiff,apres,rpd,hpdif,hapres,pdc,pdm12c,hpdc,hpdm12c)/active   1.336
 
-#metal1-poly blocked by 
- overlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (poly,fp,pp,pn,pres,rp,pc,ppc,pnc,pm12c,ppm12c,pnm12c,nfet,pfet,fet,hnfet,hpfet,hfet)/active   0.607 
- sideoverlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 ~(m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (poly,fp,pp,pn,pres,rp,pc,ppc,pnc,pm12c,ppm12c,pnm12c,nfet,pfet,fet,hnfet,hpfet,hfet)/active   1.350 
- sideoverlap (poly,fp,pp,pn,pres,rp,pc,ppc,pnc,pm12c,ppm12c,pnm12c,nfet,pfet,fet,hnfet,hpfet,hfet)/active ~(poly,fp,pp,pn,pres,rp,pc,ppc,pnc,pm12c,ppm12c,pnm12c,nfet,pfet,fet,hnfet,hpfet,hfet)/active (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1   1.350 
+#metal1-poly blocked by
+ overlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (poly,fp,pp,pn,pres,rp,pc,ppc,pnc,pm12c,ppm12c,pnm12c,nfet,pfet,fet,hnfet,hpfet,hfet)/active   0.607
+ sideoverlap (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 ~(m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1 (poly,fp,pp,pn,pres,rp,pc,ppc,pnc,pm12c,ppm12c,pnm12c,nfet,pfet,fet,hnfet,hpfet,hfet)/active   1.350
+ sideoverlap (poly,fp,pp,pn,pres,rp,pc,ppc,pnc,pm12c,ppm12c,pnm12c,nfet,pfet,fet,hnfet,hpfet,hfet)/active ~(poly,fp,pp,pn,pres,rp,pc,ppc,pnc,pm12c,ppm12c,pnm12c,nfet,pfet,fet,hnfet,hpfet,hfet)/active (m1,fm1,rm1,ndc,ndm12c,nsc,nwsc,nsm12c,nwsm12c,pdc,pdm12c,psc,psm12c,hndc,hndm12c,hnsc,hnsm12c,hpdc,hpdm12c,hpsc,hpsm12c,bc,emc,clc,pc,ppc,pnc,pm12c,ppm12c,pnm12c,m2c,m123c)/metal1   1.350
 
 #metal2
  sidewall (m2,fm2,rm2,m2c,pdm12c,ndm12c,psm12c,nsm12c,pm12c,m123c,nwsm12c,hpdm12c,hndm12c,hpsm12c,hnsm12c,m3c,m234c)/metal2 ~(m2,fm2,rm2,m2c,pdm12c,ndm12c,psm12c,nsm12c,pm12c,m123c,nwsm12c,hpdm12c,hndm12c,hpsm12c,hnsm12c,m3c,m234c)/metal2 ~(m2,fm2,rm2,m2c,pdm12c,ndm12c,psm12c,nsm12c,pm12c,m123c,nwsm12c,hpdm12c,hndm12c,hpsm12c,hnsm12c,m3c,m234c)/metal2 (m2,fm2,rm2,m2c,pdm12c,ndm12c,psm12c,nsm12c,pm12c,m123c,nwsm12c,hpdm12c,hndm12c,hpsm12c,hnsm12c,m3c,m234c)/metal2  23.532
  areacap (m2,fm2,rm2,m3c,m123c,m234c)/metal2   0.209
 
-#metal2-sub blocked by 
+#metal2-sub blocked by
  overlap (m2,fm2,rm2,m3c,m123c,m234c)/metal2 ~space/w   0.209 ~space/a,~space/m1
  perimc (m2,fm2,rm2,m2c,pdm12c,ndm12c,psm12c,nsm12c,pm12c,m123c,nwsm12c,hpdm12c,hndm12c,hpsm12c,hnsm12c,m3c,m234c)/metal2 ~(m2,fm2,rm2,m2c,pdm12c,ndm12c,psm12c,nsm12c,pm12c,m123c,nwsm12c,hpdm12c,hndm12c,hpsm12c,hnsm12c,m3c,m234c)/metal2   0.502
  sideoverlap (m2,fm2,rm2,m2c,pdm12c,ndm12c,psm12c,nsm12c,pm12c,m123c,nwsm12c,hpdm12c,hndm12c,hpsm12c,hnsm12c,m3c,m234c)/metal2 ~(m2,fm2,rm2,m2c,pdm12c,ndm12c,psm12c,nsm12c,pm12c,m123c,nwsm12c,hpdm12c,hndm12c,hpsm12c,hnsm12c,m3c,m234c)/metal2 ~space/w   0.502 ~space/a,~space/m1
@@ -17364,27 +17364,27 @@ style colorversatec
  4444 8888 4444 8888 \
  4444 8888 4444 8888 \
  4444 8888 4444 8888 \
- 4444 8888 4444 8888 
+ 4444 8888 4444 8888
  emit,emc/a,emc/a cyan \
  0000 4444 0000 4444 \
  0000 4444 0000 4444 \
  0000 4444 0000 4444 \
- 0000 4444 0000 4444 
+ 0000 4444 0000 4444
  base,bc/a,bc/a yellow \
  5555 AAAA 0000 0000 \
  5555 AAAA 0000 0000 \
  5555 AAAA 0000 0000 \
- 5555 AAAA 0000 0000 
+ 5555 AAAA 0000 0000
  base,bc/a,bc/a cyan \
  0000 5555 0000 0000 \
  0000 5555 0000 0000 \
  0000 5555 0000 0000 \
- 0000 5555 0000 0000 
+ 0000 5555 0000 0000
  base,bc/a,bc/a magenta \
  AAAA 0000 0000 0000 \
  AAAA 0000 0000 0000 \
  AAAA 0000 0000 0000 \
- AAAA 0000 0000 0000 
+ AAAA 0000 0000 0000
  clc,emc/a,emc,bc/a,bc X
  error_p,error_s,error_ps black \
  0000 3C3C 4646 4A4A \
@@ -17493,4 +17493,3 @@ style gremlin
  pc/a,ppc/a,pnc/a,pm12c/a,ppm12c/a,pnm12c/a,ndc/a,ndm12c/a,hndc/a,hndm12c/a,pdc/a,pdm12c/a,hpdc/a,hpdm12c/a,psc/a,psm12c/a,hpsc/a,hpsm12c/a,nsc/a,nwsc/a,nsm12c/a,nwsm12c/a,hnsc/a,hnsm12c/a,gc,gc,gc,gv1 X
 
 end
-
