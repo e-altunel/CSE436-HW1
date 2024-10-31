@@ -1,0 +1,7 @@
+.plot v(a) v(b) v(y)
+.control
+set colorplot = true
+set hcopypscolor = true
+run
+wrdata output_file.dat v(a) v(b) v(y)
+.endc
