@@ -1,0 +1,7 @@
+venv
+doc/report/assets/
+doc/report/spice/
+doc/report/mag/
+doc/report/*.tar.gz
+doc/report/*.zip
+doc/report/*.pdf
