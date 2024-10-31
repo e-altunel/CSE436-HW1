@@ -1,0 +1,10 @@
+.include /output/tsmc_cmos025
+
+V0 vdd gnd 2.5V
+V1 a gnd PULSE(0 2.5 0ns 0ns 0ns 20ns 40ns)
+V2 b gnd PULSE(0 2.5 0ns 0ns 0ns 40ns 80ns)
+CL y 0 1fF
+.TRAN 1ns 100ns
+
+.model nfet NMOS
+.model pfet PMOS
